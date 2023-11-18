@@ -22,17 +22,17 @@ export default function NavBar(){
                         
                         <Box className="menu-icon">
                             <Link href='https://www.linkedin.com/in/jack-torrealba-743a90192/' target="_blank" rel="noreferrer">
-                                <FaLinkedin id='linkedInIcon' color='#0077b5' size='20px'></FaLinkedin>
+                                <FaLinkedin id='linkedInIcon' color='#0077b5' size='30px'></FaLinkedin>
                             </Link>
                         </Box>
                         <Box className="menu-icon">
                             <Link href='https://github.com/jacktorrealba' target="_blank" rel="noreferrer">
-                                <FaGithub  color='#d3d3d3' size='20px'></FaGithub>
+                                <FaGithub  color='#d3d3d3' size='30px'></FaGithub>
                             </Link>
                         </Box>
 
                         <Box className="menu-icon">
-                            <Button size='xs' rightIcon={<DownloadIcon></DownloadIcon>}>
+                            <Button size='md' rightIcon={<DownloadIcon></DownloadIcon>}>
                                 <a href="./TorrealbaResume.pdf" download='TorrealbaResume.pdf' target="_blank" rel="noreferrer">Resume</a>
                             </Button>
                         </Box>

@@ -55,7 +55,7 @@ body {
 }
 
 .menu-items {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   align-self: center;
   text-decoration: none;
@@ -85,7 +85,7 @@ body {
 }
 
 .menu-items-sm {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
@@ -140,7 +140,7 @@ body {
 
 .introMessage {
   color: white;
-  font-size: 11px;
+  font-size: 16px;
   padding-left: 1rem;
 }
 
@@ -152,44 +152,11 @@ body {
   
 }
 
-#btnView {
-  align-self: baseline;
-  font-size: 12px;
-  font-weight: bold;
-  background-color: var(--foreground);
-  border-radius: 4px;
-  border: 2px solid var(--background);
-  cursor: pointer;
-  text-decoration: none;
-  color: var(--background);
-  padding: 0.25rem;
-}
-
-#btnView:hover {
-  background-color: var(--background);
-  text-decoration: underline;
-  color:var(--foreground)
-}
-
-.aboutMeDiv {
-  border: 2px solid gray ;
-  border-radius: 8px;
-  text-align: left;
-  margin-top: 1rem;
-  background-color: var(--foreground);
-  color: var(--background);
-  
-}
-
-.aboutMeDiv div {
-  padding:1rem;
-}
-
 .aboutMe {
   width: 100%;
   text-align: left;
-  font-size: 12px;
-  margin-top:2rem;
+  font-size: 18px;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -243,7 +210,6 @@ h4 {
   }
 
   .description {
-    font-size: 13px;
     flex-wrap: wrap;
     text-align: center;
   }

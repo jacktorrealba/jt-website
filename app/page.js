@@ -20,7 +20,7 @@ export default function Page() {
             </Center>
 
             <Center mt='2rem'>
-              <Text color='#d3d3d3' className="description" >
+              <Text color='#d3d3d3' className="description" fontSize='18px' >
                 I&apos;m a full-stack web developer with a machine learning background.
               </Text>
             </Center>

@@ -8,7 +8,7 @@ export default function Portfolio() {
             <PageTransition>
                 <Center>
                     <Box mt='3rem'>
-                        <Text color='#d3d3d3'>Coming Soon</Text>
+                        <Text color='#d3d3d3' fontSize='18px'>Coming Soon</Text>
                     </Box>
                 </Center>
             </PageTransition>

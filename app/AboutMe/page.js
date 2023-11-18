@@ -12,7 +12,7 @@ export default function Page() {
                         <Box justifyContent='center' maxW='500px' id='aboutMeContentDiv'>
                             <Box w='100%' color='#d3d3d3' mt='3rem' mb='3rem'>
                                 <Box display='inline-flex'>
-                                    <Heading size='sm' mr='.5rem' text='true' fontFamily='M PLUS Rounded 1c'>
+                                    <Heading size='sm' mr='.5rem' text='true' fontSize='22px' fontFamily='M PLUS Rounded 1c'>
                                         My Journey  
                                     </Heading>
                                     <Box mt='auto' mb='auto'>
@@ -40,7 +40,7 @@ export default function Page() {
                                 </Text>
 
                                 <Box display='inline-flex' mt='3rem'>
-                                    <Heading size='sm' mr='.5rem' text='true' fontFamily='M PLUS Rounded 1c'>
+                                    <Heading size='sm' mr='.5rem' text='true' fontSize='22px' fontFamily='M PLUS Rounded 1c'>
                                         About Me  
                                     </Heading>
                                     <Box mt='auto' mb='auto'>
@@ -54,12 +54,12 @@ export default function Page() {
 
                                 <Box className='pet-image-div' display='flex' pt='1rem'>
                                     <Box pr='1rem'>     
-                                        <Badge>Ozzy</Badge>                               
-                                        <Image id='ozzyImg' border='2px solid #d3d3d3' src='./ozzy-xl.jpg' alt='ozzy' boxSize='150px' objectFit='cover'></Image>
+                                        <Badge fontSize='18px'>Ozzy</Badge>                               
+                                        <Image id='ozzyImg' border='2px solid #d3d3d3' src='./ozzy-xl.jpg' alt='ozzy' boxSize='300px' objectFit='cover'></Image>
                                     </Box>
                                     <Box>        
-                                        <Badge>Eevee</Badge>                            
-                                        <Image id='eeveeImg' border='2px solid #d3d3d3' src='./eevee-xl.jpg' alt='ozzy' boxSize='150px' objectFit='cover'></Image>
+                                        <Badge fontSize='18px'>Eevee</Badge>                            
+                                        <Image id='eeveeImg' border='2px solid #d3d3d3' src='./eevee-xl.jpg' alt='ozzy' boxSize='300px' objectFit='cover'></Image>
                                     </Box>
                                 </Box>
 
@@ -68,7 +68,7 @@ export default function Page() {
                                     Some of my other hobbies include:
                                 </Text>
 
-                                <UnorderedList fontSize='12px'>
+                                <UnorderedList fontSize='18px'>
                                     <ListItem>custom keyboard building</ListItem>
                                     <ListItem>computer building</ListItem>
                                     <ListItem>car mechanics</ListItem>
