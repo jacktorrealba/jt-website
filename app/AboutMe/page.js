@@ -53,11 +53,11 @@ export default function Page() {
                                 </Text>
 
                                 <Box className='pet-image-div' display='flex' pt='1rem'>
-                                    <Box pr='1rem'>     
+                                    <Box className='pet-img-box' pr='1rem'>     
                                         <Badge fontSize='18px'>Ozzy</Badge>                               
                                         <Image id='ozzyImg' border='2px solid #d3d3d3' src='./ozzy-xl.jpg' alt='ozzy' boxSize='300px' objectFit='cover'></Image>
                                     </Box>
-                                    <Box>        
+                                    <Box className='pet-img-box'>        
                                         <Badge fontSize='18px'>Eevee</Badge>                            
                                         <Image id='eeveeImg' border='2px solid #d3d3d3' src='./eevee-xl.jpg' alt='ozzy' boxSize='300px' objectFit='cover'></Image>
                                     </Box>
