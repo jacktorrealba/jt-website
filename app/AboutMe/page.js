@@ -13,7 +13,7 @@ export default function Page() {
                             <Box w='100%' color='#d3d3d3' mt='3rem' mb='3rem'>
                                 <Box display='inline-flex'>
                                     <Heading size='sm' mr='.5rem' text='true' fontSize='22px' fontFamily='M PLUS Rounded 1c'>
-                                        My Journey  
+                                        My Journey Test
                                     </Heading>
                                     <Box mt='auto' mb='auto'>
                                         <FaPlane></FaPlane>
