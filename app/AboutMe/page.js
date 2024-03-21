@@ -13,29 +13,22 @@ export default function Page() {
                             <Box w='100%' color='#d3d3d3' mt='3rem' mb='3rem'>
                                 <Box display='inline-flex'>
                                     <Heading size='sm' mr='.5rem' text='true' fontSize='22px' fontFamily='M PLUS Rounded 1c'>
-                                        My Journey Test
+                                        My Journey
                                     </Heading>
                                     <Box mt='auto' mb='auto'>
                                         <FaPlane></FaPlane>
                                     </Box>
                                 </Box>
-                                <Text className="aboutMe">
-                                    I went to school for data analytics where I found a passion for machine learning and coding.
-                                    It wasn&apos;t until my first job where I built a web application that I was introduced to the world of full-stack development
-                                    and decided to pursue a career in web development.
-                                </Text>
 
                                 <Text className="aboutMe">
                                     During my first job out of college, I was tasked with a solving a problem that my department faced.
-                                    We needed a tool or application that could capture rich text data for major a report our group developed. 
-                                    At this point in my career, I knew little to nothing about the process of web development, but I knew enough to understand that 
-                                    building a web application would definitely solve our problem.
+                                    We needed a tool or application that could capture rich text data for a major report our group developed. 
+                                    At this point in my career, I knew little to nothing about the process of building a full-stack application, but I knew that it would solve our problem.
                                 </Text>
 
                                 <Text className="aboutMe">
-                                    That&apos;s when I fired up Visual Studio Code and started to architect the form that users would go to
-                                    enter rich text data. Months later, I piloted the application and it was a success! It solved the issue that was 
-                                    originally presented and I received a myriad of praise for being able to think outside the box and 
+                                    That&apos;s when I opened up Visual Studio Code and started to architect the form that users would go to
+                                    enter rich text data. Months later, I piloted the application and it was a success. I received a myriad of praise for being able to think outside the box and 
                                     challenge myself to learn a new skill that now has brought immense value to my team.
                                 </Text>
 
@@ -73,7 +66,6 @@ export default function Page() {
                                     <ListItem>computer building</ListItem>
                                     <ListItem>car mechanics</ListItem>
                                     <ListItem>woodworking</ListItem>
-                                    <ListItem>botany</ListItem>
                                 </UnorderedList>
                             </Box>
                         </Box>
