@@ -33,11 +33,6 @@ export default function NavBar(){
                                 <FaGithub id="githubIcon" color='#d3d3d3' size='30px'></FaGithub>
                             </Link>
                         </Box>
-                        <Box className="menu-icon">
-                            <Button size='md' rightIcon={<DownloadIcon></DownloadIcon>}>
-                                <a href="./TorrealbaResume.pdf" download='TorrealbaResume.pdf' target="_blank" rel="noreferrer">Resume</a>
-                            </Button>
-                        </Box>
                         
                         <Box id="menu-div" display='none'>
                             <Menu>
