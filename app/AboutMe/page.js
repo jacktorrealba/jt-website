@@ -22,8 +22,8 @@ export default function Page() {
                                 </Text>
 
                                 <Text className="aboutMe">
-                                    He attended the University of Connecticut and earned a Bachelor's of Science in Business Data Analytics and a 
-                                    Master's of Science in Business Analytics and Data Science. 
+                                    He attended the University of Connecticut and earned a Bachelor&aspos;s of Science in Business Data Analytics and a 
+                                    Master&aspos;s of Science in Business Analytics and Data Science. 
                                 </Text>
 
                                 <Text className="aboutMe">
