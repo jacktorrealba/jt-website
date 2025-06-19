@@ -12,10 +12,6 @@ export default function Page() {
                     <Center>
                         <Box justifyContent='center' maxW='500px' id='aboutMeContentDiv'>
                             <Box w='100%' color='#d3d3d3' mt='3rem' mb='3rem'>
-                                <Box>
-                                    
-                                    <Divider mt='1rem'/>
-                                </Box>
 
                                 <Text className="aboutMe">
                                     Jack Torrealba was born and raised in Connecticut.
