@@ -1,6 +1,7 @@
 'use client'
 import PageTransition from '@/components/page-transition'
-import {Center, Image, Text, Box,  ChakraProvider,  Heading,  Badge,  UnorderedList, ListItem } from '@chakra-ui/react'
+import {Center, Image, Text, Box,  ChakraProvider, Heading,  Badge,  UnorderedList, ListItem, Divider } from '@chakra-ui/react'
+
 import {FaUser, FaPlane} from 'react-icons/fa'
 
 export default function Page() {
@@ -11,34 +12,32 @@ export default function Page() {
                     <Center>
                         <Box justifyContent='center' maxW='500px' id='aboutMeContentDiv'>
                             <Box w='100%' color='#d3d3d3' mt='3rem' mb='3rem'>
-                                <Box display='inline-flex'>
-                                    <Heading size='sm' mr='.5rem' text='true' fontSize='22px' fontFamily='M PLUS Rounded 1c'>
-                                        My Journey
-                                    </Heading>
-                                    <Box mt='auto' mb='auto'>
-                                        <FaPlane></FaPlane>
-                                    </Box>
+                                <Box>
+                                    
+                                    <Divider mt='1rem'/>
                                 </Box>
 
                                 <Text className="aboutMe">
-                                    During my first job out of college, I was tasked with a solving a problem that my department faced.
-                                    We needed a tool or application that could capture rich text data for a major report our group developed. 
-                                    At this point in my career, I knew little to nothing about the process of building a full-stack application, but I knew that it would solve our problem.
+                                    Jack Torrealba was born and raised in Connecticut.
                                 </Text>
 
                                 <Text className="aboutMe">
-                                    That&apos;s when I opened up Visual Studio Code and started to architect the form that users would go to
-                                    enter rich text data. Months later, I piloted the application and it was a success. I received a myriad of praise for being able to think outside the box and 
-                                    challenge myself to learn a new skill that now has brought immense value to my team.
+                                    He attended the University of Connecticut and earned a Bachelor's of Science in Business Data Analytics and a 
+                                    Master's of Science in Business Analytics and Data Science. 
                                 </Text>
 
-                                <Box display='inline-flex' mt='3rem'>
+                                <Text className="aboutMe">
+                                    He is currently working as a Data Analyst at Charter Communications in the Customer Operations division where he 
+                                    utilizes his analytical and computer science skills to build ETL pipelines, design Tableau dashboards, manage a SQL Server database, and maintain his own .NET web application used
+                                    by internal employees to encourage data integrity & accuracy and streamline reporting.
+                                </Text>
+
+
+                                <Box mt='3rem'>
                                     <Heading size='sm' mr='.5rem' text='true' fontSize='22px' fontFamily='M PLUS Rounded 1c'>
-                                        Get to Know Me  
+                                        Get to Know Me Personally
                                     </Heading>
-                                    <Box mt='auto' mb='auto'>
-                                        <FaUser></FaUser>
-                                    </Box>
+                                    <Divider mt='1rem'/>
                                 </Box>
 
                                 <Text className="aboutMe">
@@ -66,6 +65,7 @@ export default function Page() {
                                     <ListItem>computer building</ListItem>
                                     <ListItem>car mechanics</ListItem>
                                     <ListItem>woodworking</ListItem>
+                                    <ListItem>gardening</ListItem>
                                 </UnorderedList>
                             </Box>
                         </Box>
